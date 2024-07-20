@@ -4,9 +4,9 @@ from cryptography.fernet import Fernet
 def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
-        user="pm_user",
-        password="kali",
-        database="Password_Manager"
+        user="your_username",
+        password="your password",
+        database="your database name"
     )
 
 def load_key():
